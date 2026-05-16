@@ -20,3 +20,13 @@ MCP server: parse and roll RPG-style dice expressions. `1d20`, `4d6+3`,
 ## License
 
 MIT.
+
+## Repository Health
+
+This repository includes a dependency-free health check for core documentation, metadata, and CI wiring. Run it locally before publishing changes:
+
+```sh
+python3 scripts/check_repository_health.py
+```
+
+The same check runs in GitHub Actions on pushes and pull requests.
