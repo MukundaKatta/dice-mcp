@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/dice",
+  "description": "MCP server: parse and roll dice-notation expressions (1d20+5, 4d6, 2d10*3).",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/dice-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/dice-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/dice-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
